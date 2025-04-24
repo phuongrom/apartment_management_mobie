@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.jsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "constants/MenuImage.js",
+    "constants/MenuItem.js",
+    "app/complaints/edit[id]jsx"
+  ],
+  "extends": "expo/tsconfig.base"
+}
